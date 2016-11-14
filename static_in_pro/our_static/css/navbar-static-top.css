@@ -4,20 +4,20 @@ body {
 
 .navbar-static-top {
   margin-bottom: 19px;
-  background-color: #8a6d3b;
-  border-color: #1A5F23;
+  background-color: #FFFFFF;
+  border-color: #30A5D4;
 }
 
 .navbar-default .navbar-brand {
-  color: #FFF;
+  color: #7ccfed;
 }
 
 .navbar-default .navbar-brand:hover {
-  color: #777;
+  color: #7ccfed;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: #999;
+  color: #7ccfed;
 }
 
 .navbar-default .navbar-toggle {

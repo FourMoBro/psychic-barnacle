@@ -9,7 +9,7 @@ from .forms import ContactForm, SignUpForm
 
 # Create your views here.
 def home(request):
-	title = 'Sign Up Now'
+	title = 'Request More Information'
 	form = SignUpForm(request.POST or None)
 	context = {
 		"title": title,
@@ -39,6 +39,7 @@ def home(request):
 			'queryset': queryset
 		}
 		return render(request, "questions/home.html", context)
+		
 	return render(request, "home.html", context)
 
 
