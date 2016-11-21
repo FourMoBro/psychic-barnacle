@@ -10,6 +10,7 @@ urlpatterns = [
     url(r'^question/$', 'questions.views.home', name='question_home'),
     url(r'^contact/$', 'newsletter.views.contact', name='contact'),
     url(r'^about/$', 'happychimp.views.about', name='about'),
+    url(r'^profile/(?P<username>[\w.@+-]+)/$', 'profiles.views.profile_view', name='profile'),
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
