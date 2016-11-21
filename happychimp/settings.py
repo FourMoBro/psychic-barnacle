@@ -57,6 +57,7 @@ INSTALLED_APPS = (
     #my apps
     'matches',
     'newsletter',
+    'profiles',
     'questions',
 )
 
